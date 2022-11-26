@@ -60,6 +60,7 @@ createAccount = document.querySelector("#account")
 username = document.querySelector("#userName")
 email = document.querySelector("#email")
 password = document.querySelector("#password")
+confirm = document.querySelector("#password2")
 
 
 createAccount.addEventListener(`submit`, function(event){ 
@@ -67,6 +68,6 @@ createAccount.addEventListener(`submit`, function(event){
 
 
   console.log(createAccount)
-
+  
   alert(`Your username is ${username.value}, Your email address is ${email.value} and your password is: xxxxxxx`)
 })
